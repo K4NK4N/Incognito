@@ -19,6 +19,33 @@ However, following a public leak, we have decided to officially release the late
 ## Learning and Usage
 This repository is a resource for learning and understanding. We hope that by making this code available, we can support the community in using and improving their own software safely and effectively.
 
+## How to Use
+You will need Python, [download here.](https://www.python.org) The latest version will do just fine.
+
+Make a text file named `requirements.txt` and put these contents:
+
+```
+guardshield
+pywin32
+psutil
+pygetwindow
+pyautogui
+pywebview
+aiohttp
+wmi
+requests
+```
+
+If you already have some of these, it will still work fine.
+
+Once you have made the `requirements.txt` file, put this into your Command Prompt:
+
+```
+pip install -r requirements.txt
+```
+
+If you would like to use Incognito, you can run `main.py` to do this.
+
 ## License
 Please ensure you **[read and follow the license](/LICENSE)** associated with this project. The license outlines the permissible uses and restrictions for this code. Adhering to these terms is crucial for legal use and further development of the software.
 
